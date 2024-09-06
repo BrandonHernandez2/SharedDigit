@@ -6,10 +6,10 @@ public class Main {
     }
 
     private static boolean hasSharedDigit(int first, int second) {
-        if(first < 10 && first > 99){
+        if(first < 10 || first > 99){
             return false;
         }
-        if(second < 10 && second > 99){
+        if(second < 10 || second > 99){
             return false;
         }
 
